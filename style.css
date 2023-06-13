@@ -1,0 +1,75 @@
+/* Estilos CSS */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0px;
+    background-color: bisque;
+}
+
+h1{
+    margin-top: 10px;
+    background-color: darkgoldenrod;
+}
+
+header{
+    background-color: black;
+    color: darksalmon;
+    padding: 10px;
+    text-align: center;
+    margin-right: 0%;
+}
+
+nav{
+    background-color: dimgrey;
+    color: beige;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    margin-top: 2%;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: auto;
+    display: flex;
+}
+
+nav a{
+    color: darkkhaki;
+    text-decoration: none;
+    padding: 6px 16px;
+    display: block;
+}
+
+h2{
+    margin-top: 10px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    margin-right: 14%;
+}
+
+#content{
+    padding: 20px;
+}
+
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+}
+
+.movie{
+    flex-basis: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: coral;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie img{
+    width: 100%;
+}
